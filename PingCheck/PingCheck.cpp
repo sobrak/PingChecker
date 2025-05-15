@@ -1,42 +1,38 @@
 ﻿#include <iostream>
 #include <ctime>
 #include <windows.h>
+#include <string>
+#include "ping.h"
+#include <fstream>
 
 void ConnectionRestored();
 void UpdateTime();
+void ConnectionFailed();
+void Info();
 
 time_t now = time(0);
 tm* localtm = localtime(&now);
-int PingResult;
-bool IsFailed = false;
-bool WaitingConnect = false;
+ping PingState;
+
+std::ofstream writefile;
 
 int main() {
     while (true)
     {
-        PingResult = system("ping 8.8.8.8 > log.txt");
+        PingState.PingResult = system("ping 8.8.8.8 -n 1 > log_ping.txt");
 
-        if (PingResult == 0 && WaitingConnect) {
+        if (PingState.PingResult == 0 && PingState.WaitingConnect) {
             ConnectionRestored();
         }
 
-        if (PingResult == 0) {
-            WaitingConnect = false;
+        if (PingState.PingResult == 0) {
+            PingState.WaitingConnect = false;
             system("Color 0A");
             std::cout <<  "success" << "\n";
             std::cout << "\n";
         }
         else {
-            IsFailed = true;
-            if (!WaitingConnect) {
-                WaitingConnect = true;
-                system("Color 04");
-                std::cout << "FAILED" << "\n";
-                UpdateTime();
-                std::cout << "Error time : " << asctime(localtm) << "\n";
-                std::cout << "Waiting for connect..." << "\n";
-                std::cout << "\n";
-            }
+            ConnectionFailed();
         }
     }
 }
@@ -48,8 +44,43 @@ void ConnectionRestored()
     std::cout << "Connection restored! : " << asctime(localtm) << "\n";
 }
 
+void ConnectionFailed()
+{
+    PingState.IsFailed = true;
+    if (!PingState.WaitingConnect) {
+        PingState.WaitingConnect = true;
+        system("Color 04");
+        std::cout << "FAILED" << "\n";
+        UpdateTime();
+        std::cout << "Error time : " << asctime(localtm) << "\n";
+        PingState.FailedTime.push_back(asctime(localtm));
+        std::cout << "Waiting for connect..." << "\n";
+        std::cout << "\n";
+        Info();
+    }
+}
+
 void UpdateTime()
 {
     now = time(0);
     localtm = localtime(&now);
+}
+
+void Info()
+{
+    if (!PingState.FailedTime.empty()) {
+        writefile.open("log.txt");
+        for (std::string i : PingState.FailedTime)
+        {
+            if (writefile.is_open())
+            {
+                writefile << "AN ERROR OCCURRED IN: " << i << std::endl;
+            }
+            std::cout << "AN ERROR OCCURRED IN: " << i << " logged in log.txt" << "\n";
+        }
+        writefile.close();
+    }
+    else {
+        std::cout << "No errors!";
+    }
 }
