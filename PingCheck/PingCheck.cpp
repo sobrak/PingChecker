@@ -1,9 +1,5 @@
-﻿#include <iostream>
-#include <ctime>
-#include <windows.h>
-#include <string>
+﻿#include "PingCheck.h"
 #include "ping.h"
-#include <fstream>
 
 void ConnectionRestored();
 void UpdateTime();
@@ -28,8 +24,8 @@ int main() {
         if (PingState.PingResult == 0) {
             PingState.WaitingConnect = false;
             system("Color 0A");
-            std::cout <<  "success" << "\n";
-            std::cout << "\n";
+            std::cout << "success" << std::endl;
+            std::cout << std::endl;
         }
         else {
             ConnectionFailed();
@@ -41,7 +37,7 @@ void ConnectionRestored()
 {
     system("Color 0A");
     UpdateTime();
-    std::cout << "Connection restored! : " << asctime(localtm) << "\n";
+    std::cout << "Connection restored! : " << asctime(localtm) << std::endl;
 }
 
 void ConnectionFailed()
@@ -50,12 +46,12 @@ void ConnectionFailed()
     if (!PingState.WaitingConnect) {
         PingState.WaitingConnect = true;
         system("Color 04");
-        std::cout << "FAILED" << "\n";
+        std::cout << "FAILED" << std::endl;
         UpdateTime();
-        std::cout << "Error time : " << asctime(localtm) << "\n";
+        std::cout << "Error time : " << asctime(localtm) << std::endl;
         PingState.FailedTime.push_back(asctime(localtm));
-        std::cout << "Waiting for connect..." << "\n";
-        std::cout << "\n";
+        std::cout << "Waiting for connect..." << std::endl;
+        std::cout << std::endl;
         Info();
     }
 }
@@ -76,7 +72,7 @@ void Info()
             {
                 writefile << "AN ERROR OCCURRED IN: " << i << std::endl;
             }
-            std::cout << "AN ERROR OCCURRED IN: " << i << " logged in log.txt" << "\n";
+            std::cout << "AN ERROR OCCURRED IN: " << i << " logged in log.txt" << std::endl;
         }
         writefile.close();
     }
