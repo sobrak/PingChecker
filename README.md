@@ -3,4 +3,5 @@ This program is designed to conveniently check the Internet connection on Window
 
 Source code: PingCheck\PingCheck.cpp
 
-Compiled .exe file: out\build\x64-release\PingCheck
+Compiled .exe file: PingChecker/out/build/x64-release/PingCheck/
+
