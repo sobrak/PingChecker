@@ -4,30 +4,174 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
       - "CMakeLists.txt:12 (project)"
     message: |
-      The system is: Windows - 10.0.19045 - AMD64
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:67 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cl.exe"
+    candidate_directories:
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "D:/Windows Kits/10/bin/x64/"
+      - "D:/Vs/Product/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Vs/Product/Common7/IDE/"
+      - "D:/Vs/Product/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Nvim/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/sodae/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Vs/Product/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Vs/Product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Vs/Product/VC/vcpkg/"
+    searched_directories:
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe.com"
+    found: "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Vs\\Product\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Vs\\Product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Vs\\Product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Vs\\Product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Vs\\Product\\Common7\\IDE\\"
+        - "D:\\Vs\\Product\\Common7\\Tools\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Nvim\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\sodae\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Vs\\Product\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Vs\\Product\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sodae/source/repos/sobrak/PingChecker/out/install/x64-release"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/"
+    found: "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Vs\\Product\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Vs\\Product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Vs\\Product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Vs\\Product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Vs\\Product\\Common7\\IDE\\"
+        - "D:\\Vs\\Product\\Common7\\Tools\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Nvim\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\sodae\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Vs\\Product\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Vs\\Product\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sodae/source/repos/sobrak/PingChecker/out/install/x64-release"
+      ENV{INCLUDE}:
+        - "D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\include"
+        - "D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\ATLMFC\\include"
+        - "D:\\Vs\\Product\\VC\\Auxiliary\\VS\\include"
+        - "D:\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:12 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Compiler: D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe 
       Build flags: 
       Id flags:  
       
       The output was:
       0
-      Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35211 для x64
+      Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.50.35721 для x64
       (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
       
       CMakeCCompilerId.c
-      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Microsoft (R) Incremental Linker Version 14.50.35721.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
       
       /out:CMakeCCompilerId.exe 
@@ -39,41 +183,690 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/sodae/source/repos/PingCheck/out/build/x64-release/CMakeFiles/3.31.6-msvc6/CompilerIdC/CMakeCCompilerId.exe
+        C:/Users/sodae/source/repos/sobrak/PingChecker/out/build/x64-release/CMakeFiles/4.1.1-msvc1/CompilerIdC/CMakeCCompilerId.exe
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1288 (message)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:12 (project)"
     message: |
       Detecting C compiler /showIncludes prefix:
         main.c
-        Примечание: включение файла:  C:\\Users\\sodae\\source\\repos\\PingCheck\\out\\build\\x64-release\\CMakeFiles\\ShowIncludes\\foo.h
+        Примечание: включение файла:  C:\\Users\\sodae\\source\\repos\\sobrak\\PingChecker\\out\\build\\x64-release\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Примечание: включение файла:  "
   -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "D:/Windows Kits/10/bin/x64/"
+      - "D:/Vs/Product/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Vs/Product/Common7/IDE/"
+      - "D:/Vs/Product/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Nvim/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/sodae/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Vs/Product/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Vs/Product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Vs/Product/VC/vcpkg/"
+    searched_directories:
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Vs\\Product\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Vs\\Product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Vs\\Product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Vs\\Product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Vs\\Product\\Common7\\IDE\\"
+        - "D:\\Vs\\Product\\Common7\\Tools\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Nvim\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\sodae\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Vs\\Product\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Vs\\Product\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sodae/source/repos/sobrak/PingChecker/out/install/x64-release"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "D:/Windows Kits/10/bin/x64/"
+      - "D:/Vs/Product/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Vs/Product/Common7/IDE/"
+      - "D:/Vs/Product/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Nvim/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/sodae/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Vs/Product/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Vs/Product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Vs/Product/VC/vcpkg/"
+    searched_directories:
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/lld-link"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.com"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.exe"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link"
+      - "D:/Windows Kits/10/bin/x64/lld-link.com"
+      - "D:/Windows Kits/10/bin/x64/lld-link.exe"
+      - "D:/Windows Kits/10/bin/x64/lld-link"
+      - "D:/Vs/Product/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "D:/Vs/Product/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "D:/Vs/Product/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
+      - "D:/Vs/Product/Common7/IDE/lld-link.com"
+      - "D:/Vs/Product/Common7/IDE/lld-link.exe"
+      - "D:/Vs/Product/Common7/IDE/lld-link"
+      - "D:/Vs/Product/Common7/Tools/lld-link.com"
+      - "D:/Vs/Product/Common7/Tools/lld-link.exe"
+      - "D:/Vs/Product/Common7/Tools/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "D:/Nvim/bin/lld-link.com"
+      - "D:/Nvim/bin/lld-link.exe"
+      - "D:/Nvim/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Users/sodae/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/sodae/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/sodae/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/Vs/Product/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.com"
+      - "D:/Vs/Product/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.exe"
+      - "D:/Vs/Product/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "D:/Vs/Product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "D:/Vs/Product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "D:/Vs/Product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "D:/Vs/Product/VC/vcpkg/lld-link.com"
+      - "D:/Vs/Product/VC/vcpkg/lld-link.exe"
+      - "D:/Vs/Product/VC/vcpkg/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Vs\\Product\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Vs\\Product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Vs\\Product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Vs\\Product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Vs\\Product\\Common7\\IDE\\"
+        - "D:\\Vs\\Product\\Common7\\Tools\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Nvim\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\sodae\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Vs\\Product\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Vs\\Product\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sodae/source/repos/sobrak/PingChecker/out/install/x64-release"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "D:/Windows Kits/10/bin/x64/"
+      - "D:/Vs/Product/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Vs/Product/Common7/IDE/"
+      - "D:/Vs/Product/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Nvim/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/sodae/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Vs/Product/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Vs/Product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Vs/Product/VC/vcpkg/"
+    searched_directories:
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Vs\\Product\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Vs\\Product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Vs\\Product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Vs\\Product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Vs\\Product\\Common7\\IDE\\"
+        - "D:\\Vs\\Product\\Common7\\Tools\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Nvim\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\sodae\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Vs\\Product\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Vs\\Product\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sodae/source/repos/sobrak/PingChecker/out/install/x64-release"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "D:/Windows Kits/10/bin/x64/"
+      - "D:/Vs/Product/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Vs/Product/Common7/IDE/"
+      - "D:/Vs/Product/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Nvim/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/sodae/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Vs/Product/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Vs/Product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Vs/Product/VC/vcpkg/"
+    searched_directories:
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/mt.com"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/mt.exe"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/mt"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.com"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt.exe"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/mt"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.com"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt.exe"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/mt"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/mt.com"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/mt.exe"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/mt"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/mt.com"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/mt.exe"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/mt"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.com"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt.exe"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/mt"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/mt.com"
+    found: "D:/Windows Kits/10/bin/10.0.26100.0/x64/mt.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Vs\\Product\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Vs\\Product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Vs\\Product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Vs\\Product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Vs\\Product\\Common7\\IDE\\"
+        - "D:\\Vs\\Product\\Common7\\Tools\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Nvim\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\sodae\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Vs\\Product\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Vs\\Product\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sodae/source/repos/sobrak/PingChecker/out/install/x64-release"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "D:/Windows Kits/10/bin/x64/"
+      - "D:/Vs/Product/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Vs/Product/Common7/IDE/"
+      - "D:/Vs/Product/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Nvim/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/sodae/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Vs/Product/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Vs/Product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Vs/Product/VC/vcpkg/"
+    searched_directories:
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
+    found: "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Vs\\Product\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Vs\\Product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Vs\\Product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Vs\\Product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Vs\\Product\\Common7\\IDE\\"
+        - "D:\\Vs\\Product\\Common7\\Tools\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Nvim\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\sodae\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Vs\\Product\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Vs\\Product\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sodae/source/repos/sobrak/PingChecker/out/install/x64-release"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cl.exe"
+    candidate_directories:
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "D:/Windows Kits/10/bin/x64/"
+      - "D:/Vs/Product/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Vs/Product/Common7/IDE/"
+      - "D:/Vs/Product/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Nvim/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/sodae/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Vs/Product/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Vs/Product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Vs/Product/VC/vcpkg/"
+    searched_directories:
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe.com"
+    found: "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Vs\\Product\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Vs\\Product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Vs\\Product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Vs\\Product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Vs\\Product\\Common7\\IDE\\"
+        - "D:\\Vs\\Product\\Common7\\Tools\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Nvim\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\sodae\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Vs\\Product\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Vs\\Product\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sodae/source/repos/sobrak/PingChecker/out/install/x64-release"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/"
+    found: "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Vs\\Product\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Vs\\Product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Vs\\Product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Vs\\Product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Vs\\Product\\Common7\\IDE\\"
+        - "D:\\Vs\\Product\\Common7\\Tools\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Nvim\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\sodae\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Vs\\Product\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Vs\\Product\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sodae/source/repos/sobrak/PingChecker/out/install/x64-release"
+      ENV{INCLUDE}:
+        - "D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\include"
+        - "D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\ATLMFC\\include"
+        - "D:\\Vs\\Product\\VC\\Auxiliary\\VS\\include"
+        - "D:\\Windows Kits\\10\\include\\10.0.26100.0\\ucrt"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\um"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\shared"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\winrt"
+        - "D:\\Windows Kits\\10\\\\include\\10.0.26100.0\\\\cppwinrt"
+  -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:12 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Compiler: D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe 
       Build flags: 
       Id flags:  
       
       The output was:
       0
-      Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.44.35211 для x64
+      Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.50.35721 для x64
       (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
       
       CMakeCXXCompilerId.cpp
-      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Microsoft (R) Incremental Linker Version 14.50.35721.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
       
       /out:CMakeCXXCompilerId.exe 
@@ -85,32 +878,315 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/sodae/source/repos/PingCheck/out/build/x64-release/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CMakeCXXCompilerId.exe
+        C:/Users/sodae/source/repos/sobrak/PingChecker/out/build/x64-release/CMakeFiles/4.1.1-msvc1/CompilerIdCXX/CMakeCXXCompilerId.exe
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1288 (message)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:12 (project)"
     message: |
       Detecting CXX compiler /showIncludes prefix:
         main.c
-        Примечание: включение файла:  C:\\Users\\sodae\\source\\repos\\PingCheck\\out\\build\\x64-release\\CMakeFiles\\ShowIncludes\\foo.h
+        Примечание: включение файла:  C:\\Users\\sodae\\source\\repos\\sobrak\\PingChecker\\out\\build\\x64-release\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Примечание: включение файла:  "
   -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "D:/Windows Kits/10/bin/x64/"
+      - "D:/Vs/Product/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Vs/Product/Common7/IDE/"
+      - "D:/Vs/Product/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Nvim/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/sodae/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Vs/Product/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Vs/Product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Vs/Product/VC/vcpkg/"
+    searched_directories:
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/lld-link.com"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/lld-link.exe"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/lld-link"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.com"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link.exe"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/lld-link"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.com"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link.exe"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/lld-link"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/lld-link.com"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/lld-link.exe"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/lld-link"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/lld-link.com"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/lld-link.exe"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/lld-link"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.com"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link.exe"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/lld-link"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.com"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link.exe"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/lld-link"
+      - "D:/Windows Kits/10/bin/x64/lld-link.com"
+      - "D:/Windows Kits/10/bin/x64/lld-link.exe"
+      - "D:/Windows Kits/10/bin/x64/lld-link"
+      - "D:/Vs/Product/MSBuild/Current/Bin/amd64/lld-link.com"
+      - "D:/Vs/Product/MSBuild/Current/Bin/amd64/lld-link.exe"
+      - "D:/Vs/Product/MSBuild/Current/Bin/amd64/lld-link"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.com"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link.exe"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/lld-link"
+      - "D:/Vs/Product/Common7/IDE/lld-link.com"
+      - "D:/Vs/Product/Common7/IDE/lld-link.exe"
+      - "D:/Vs/Product/Common7/IDE/lld-link"
+      - "D:/Vs/Product/Common7/Tools/lld-link.com"
+      - "D:/Vs/Product/Common7/Tools/lld-link.exe"
+      - "D:/Vs/Product/Common7/Tools/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "D:/Nvim/bin/lld-link.com"
+      - "D:/Nvim/bin/lld-link.exe"
+      - "D:/Nvim/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Users/sodae/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/sodae/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/sodae/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "D:/Vs/Product/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.com"
+      - "D:/Vs/Product/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link.exe"
+      - "D:/Vs/Product/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/lld-link"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "D:/Vs/Product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "D:/Vs/Product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "D:/Vs/Product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
+      - "D:/Vs/Product/VC/vcpkg/lld-link.com"
+      - "D:/Vs/Product/VC/vcpkg/lld-link.exe"
+      - "D:/Vs/Product/VC/vcpkg/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Vs\\Product\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Vs\\Product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Vs\\Product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Vs\\Product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Vs\\Product\\Common7\\IDE\\"
+        - "D:\\Vs\\Product\\Common7\\Tools\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Nvim\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\sodae\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Vs\\Product\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Vs\\Product\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sodae/source/repos/sobrak/PingChecker/out/install/x64-release"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:581 (enable_language)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:554 (__windows_compiler_msvc_enable_rc)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:12 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/"
+      - "D:/Windows Kits/10/bin/x64/"
+      - "D:/Vs/Product/MSBuild/Current/Bin/amd64/"
+      - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
+      - "D:/Vs/Product/Common7/IDE/"
+      - "D:/Vs/Product/Common7/Tools/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/Nvim/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/sodae/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/Vs/Product/Common7/IDE/PrivateAssemblies/runtimes/win-x64/native/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "D:/Vs/Product/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
+      - "D:/Vs/Product/VC/vcpkg/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Users/sodae/source/repos/sobrak/PingChecker/out/install/x64-release/bin/"
+      - "C:/Users/sodae/source/repos/sobrak/PingChecker/out/install/x64-release/sbin/"
+      - "C:/Users/sodae/source/repos/sobrak/PingChecker/out/install/x64-release/"
+    searched_directories:
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/rc.com"
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/rc.exe"
+      - "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/rc"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/rc.com"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/rc.exe"
+      - "D:/Vs/Product/Common7/IDE/VC/vcpackages/rc"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.com"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc.exe"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TestWindow/rc"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.com"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc.exe"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer/rc"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/rc.com"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/rc.exe"
+      - "D:/Vs/Product/MSBuild/Current/Bin/Roslyn/rc"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/rc.com"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/rc.exe"
+      - "D:/Vs/Product/Team Tools/DiagnosticsHub/Collector/rc"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.com"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc.exe"
+      - "D:/Vs/Product/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console/rc"
+      - "D:/Windows Kits/10/bin/10.0.26100.0/x64/rc.com"
+    found: "D:/Windows Kits/10/bin/10.0.26100.0/x64/rc.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\VCPackages"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer"
+        - "D:\\Vs\\Product\\MSBuild\\Current\\bin\\Roslyn"
+        - "D:\\Vs\\Product\\Team Tools\\DiagnosticsHub\\Collector"
+        - "D:\\Vs\\Product\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console"
+        - "D:\\Windows Kits\\10\\bin\\10.0.26100.0\\\\x64"
+        - "D:\\Windows Kits\\10\\bin\\\\x64"
+        - "D:\\Vs\\Product\\\\MSBuild\\Current\\Bin\\amd64"
+        - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+        - "D:\\Vs\\Product\\Common7\\IDE\\"
+        - "D:\\Vs\\Product\\Common7\\Tools\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\Nvim\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\sodae\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\Vs\\Product\\Common7\\IDE\\PrivateAssemblies\\runtimes\\win-x64\\native"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "D:\\Vs\\Product\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "D:\\Vs\\Product\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Users/sodae/source/repos/sobrak/PingChecker/out/install/x64-release"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Users/sodae/source/repos/sobrak/PingChecker/out/install/x64-release"
+  -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:12 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/sodae/source/repos/PingCheck/out/build/x64-release/CMakeFiles/CMakeScratch/TryCompile-rkzde0"
-      binary: "C:/Users/sodae/source/repos/PingCheck/out/build/x64-release/CMakeFiles/CMakeScratch/TryCompile-rkzde0"
+      source: "C:/Users/sodae/source/repos/sobrak/PingChecker/out/build/x64-release/CMakeFiles/CMakeScratch/TryCompile-bc09kk"
+      binary: "C:/Users/sodae/source/repos/sobrak/PingChecker/out/build/x64-release/CMakeFiles/CMakeScratch/TryCompile-bc09kk"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
@@ -120,24 +1196,24 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/sodae/source/repos/PingCheck/out/build/x64-release/CMakeFiles/CMakeScratch/TryCompile-rkzde0'
+        Change Dir: 'C:/Users/sodae/source/repos/sobrak/PingChecker/out/build/x64-release/CMakeFiles/CMakeScratch/TryCompile-bc09kk'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_3fadd
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_3fadd.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_3fadd.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_3fadd.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3fadd.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_3fadd.exe /implib:cmTC_3fadd.lib /pdb:cmTC_3fadd.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): D:\\VS\\PRODUCT\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_8316e
+        [1/2] D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_8316e.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_8316e.dir\\ /FS -c D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_8316e.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8316e.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_8316e.exe /implib:cmTC_8316e.lib /pdb:cmTC_8316e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:12 (project)"
     message: |
       Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'C': C:/PROGRA~1/MICROS~2/2022/COMMUN~1/VC/Tools/MSVC/1444~1.352/bin/Hostx64/x64/link.exe
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe
         implicit libs: []
         implicit objs: []
         implicit dirs: []
@@ -147,25 +1223,25 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:12 (project)"
     message: |
-      Running the C compiler's linker: "C:/PROGRA~1/MICROS~2/2022/COMMUN~1/VC/Tools/MSVC/1444~1.352/bin/Hostx64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Running the C compiler's linker: "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35721.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:12 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/sodae/source/repos/PingCheck/out/build/x64-release/CMakeFiles/CMakeScratch/TryCompile-m9qket"
-      binary: "C:/Users/sodae/source/repos/PingCheck/out/build/x64-release/CMakeFiles/CMakeScratch/TryCompile-m9qket"
+      source: "C:/Users/sodae/source/repos/sobrak/PingChecker/out/build/x64-release/CMakeFiles/CMakeScratch/TryCompile-1lb6uy"
+      binary: "C:/Users/sodae/source/repos/sobrak/PingChecker/out/build/x64-release/CMakeFiles/CMakeScratch/TryCompile-1lb6uy"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
@@ -176,24 +1252,24 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/sodae/source/repos/PingCheck/out/build/x64-release/CMakeFiles/CMakeScratch/TryCompile-m9qket'
+        Change Dir: 'C:/Users/sodae/source/repos/sobrak/PingChecker/out/build/x64-release/CMakeFiles/CMakeScratch/TryCompile-1lb6uy'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_00d65
-        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_00d65.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_00d65.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_00d65.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_00d65.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_00d65.exe /implib:cmTC_00d65.lib /pdb:cmTC_00d65.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): D:\\VS\\PRODUCT\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_5524f
+        [1/2] D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_5524f.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_5524f.dir\\ /FS -c D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\Vs\\Product\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_5524f.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.26100.0\\x64\\mt.exe" --manifests  -- D:\\Vs\\Product\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5524f.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_5524f.exe /implib:cmTC_5524f.lib /pdb:cmTC_5524f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:12 (project)"
     message: |
       Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'CXX': C:/PROGRA~1/MICROS~2/2022/COMMUN~1/VC/Tools/MSVC/1444~1.352/bin/Hostx64/x64/link.exe
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe
         implicit libs: []
         implicit objs: []
         implicit dirs: []
@@ -203,12 +1279,12 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
-      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Vs/Product/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:12 (project)"
     message: |
-      Running the CXX compiler's linker: "C:/PROGRA~1/MICROS~2/2022/COMMUN~1/VC/Tools/MSVC/1444~1.352/bin/Hostx64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Running the CXX compiler's linker: "D:/Vs/Product/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35721.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...

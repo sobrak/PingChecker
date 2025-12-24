@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/sodae/source/repos/sobrak/PingChecker/out/build/x64-release/cmake_install.cmake",
+		"C:/Users/sodae/source/repos/sobrak/PingChecker/out/build/x64-release/PingCheck/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

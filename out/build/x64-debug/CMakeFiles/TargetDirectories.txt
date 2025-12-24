@@ -1,5 +1,5 @@
-C:/Users/sodae/source/repos/PingCheck/out/build/x64-debug/CMakeFiles/edit_cache.dir
-C:/Users/sodae/source/repos/PingCheck/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/sodae/source/repos/PingCheck/out/build/x64-debug/PingCheck/CMakeFiles/PingCheck.dir
-C:/Users/sodae/source/repos/PingCheck/out/build/x64-debug/PingCheck/CMakeFiles/edit_cache.dir
-C:/Users/sodae/source/repos/PingCheck/out/build/x64-debug/PingCheck/CMakeFiles/rebuild_cache.dir
+C:/Users/sodae/source/repos/sobrak/PingChecker/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/sodae/source/repos/sobrak/PingChecker/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/sodae/source/repos/sobrak/PingChecker/out/build/x64-debug/PingCheck/CMakeFiles/PingCheck.dir
+C:/Users/sodae/source/repos/sobrak/PingChecker/out/build/x64-debug/PingCheck/CMakeFiles/edit_cache.dir
+C:/Users/sodae/source/repos/sobrak/PingChecker/out/build/x64-debug/PingCheck/CMakeFiles/rebuild_cache.dir
